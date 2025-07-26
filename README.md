@@ -38,7 +38,7 @@ The system's data flow follows a modern Lakehouse architecture.
 +-----------------+                +---------------------------------+
 ```
 
-![Architecture](images/architecutre.png)
+![Architecture](images/architecture.png)
 
 ## 4. Technology Stack
 
@@ -160,7 +160,7 @@ Once all services are running, you can access the various UIs from your local ma
 -   **Credentials:** `minioadmin` / `minioadmin`
 -   **Description:** Browse the buckets and data files in your Data Lake. Navigate to the `datalake` bucket to see the `orders`, `products`, `customers_scd2` tables.
 
-![MinIO Console](images/minio_image.png)
+![MinIO Console](images/minio.png)
 
 ### Kafka UI
 -   **URL:** `http://localhost:8080`
