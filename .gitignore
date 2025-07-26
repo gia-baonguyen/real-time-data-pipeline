@@ -1,0 +1,56 @@
+# Python
+###################
+# Virtual Environments
+/venv/
+/env/
+/.venv/
+/.env/
+
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Other
+*.log
+*.pot
+*.pyo
+
+# Docker
+###################
+# Ignore local data volumes if they were ever mapped to the host
+# (Good practice to keep data out of the repo)
+sqlserver_data/
+minio_data/
+postgres_metastore_data/
+
+# Project Specific
+###################
+# Ignore the downloaded Spark JARs cache
+/spark_jars/
+
+# IDE / Editor specific
+###################
+.vscode/
+.idea/
+*.swp
+*.swo
